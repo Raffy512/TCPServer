@@ -1,0 +1,17 @@
+﻿Build started 09.10.2015 16:35:31.
+     1>Project "c:\Users\raffael.hofner\documents\visual studio 2015\Projects\TCPServer\TCPServer\TCPServer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\raffael.hofner\documents\visual studio 2015\projects\tcpserver\tcpserver\main.cpp(25): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: see declaration of 'inet_addr'
+     1>c:\users\raffael.hofner\documents\visual studio 2015\projects\tcpserver\tcpserver\main.cpp(113): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: see declaration of 'inet_addr'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\raffael.hofner\documents\visual studio 2015\Projects\TCPServer\Debug\TCPServer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\raffael.hofner\documents\visual studio 2015\Projects\TCPServer\Debug\TCPServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\raffael.hofner\documents\visual studio 2015\Projects\TCPServer\Debug\TCPServer.lib" /MACHINE:X86 Debug\main.obj
+         TCPServer.vcxproj -> c:\users\raffael.hofner\documents\visual studio 2015\Projects\TCPServer\Debug\TCPServer.exe
+     1>Done Building Project "c:\Users\raffael.hofner\documents\visual studio 2015\Projects\TCPServer\TCPServer\TCPServer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87
